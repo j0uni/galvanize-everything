@@ -11,8 +11,9 @@ project panel showing Study, Build, Check and Ready done, built with C++ and Qt 
 
 > **Status:** an early fork, built and run on macOS (Apple silicon) only so far. The code for
 > Windows, Linux and the web viewer is there, but this fork hasn't built or tested it on those
-> systems. There are no prebuilt downloads yet: build it from source (see
-> [Get started](#get-started)).
+> systems. A macOS build (universal, not notarized: right-click → Open the first time) is on the
+> [Releases](https://github.com/j0uni/galvanize-everything/releases) page; elsewhere, build it
+> from source (see [Get started](#get-started)).
 
 Galvanize Everything is a modified version of Craft Anything, by the ArtCraft team, which is
 MIT OR Apache-2.0 licensed. It is not made, endorsed or supported by them. It differs from Craft
