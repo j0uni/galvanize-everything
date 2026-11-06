@@ -1,0 +1,21 @@
+[package]
+name = "galvanize-everything-analysis"
+description = "Analyzers that turn parsed targets into evidence for Galvanize Everything"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+galvanize-everything-evidence = { workspace = true }
+galvanize-everything-formats = { workspace = true }
+galvanize-everything-disasm = { workspace = true }
+galvanize-everything-js = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+galvanize-everything-testkit = { workspace = true }

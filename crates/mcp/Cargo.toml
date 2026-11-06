@@ -1,0 +1,21 @@
+[package]
+name = "galvanize-everything-mcp"
+description = "The Galvanize Everything MCP server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+galvanize-everything-evidence = { workspace = true }
+galvanize-everything-engine = { workspace = true }
+galvanize-everything-platform = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+tempfile = "3"

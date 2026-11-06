@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Galvanize Everything
+GenericName=Software Explorer
+Comment=Find out how any software works, then craft your own
+Exec=galvanize-everything %F
+TryExec=galvanize-everything
+Icon=org.galvanizeeverything.galvanize-everything
+Terminal=false
+StartupNotify=true
+StartupWMClass=org.galvanizeeverything.galvanize-everything
+Categories=Development;Debugger;
+Keywords=reverse engineering;disassembler;binary;analysis;executable;decompiler;inspect;

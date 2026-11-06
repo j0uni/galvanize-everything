@@ -1,0 +1,6 @@
+Galvanize Everything app icon (galvanize-everything.svg and every file derived from it in this
+directory: galvanize-everything-1024.png, galvanize-everything.icns, galvanize-everything.ico and
+hicolor/).
+
+Original artwork for Galvanize Everything, under the repository's MIT OR Apache-2.0 license. It
+replaces Craft Anything's raven icon, which is not part of this version.

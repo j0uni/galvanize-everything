@@ -1,0 +1,34 @@
+Galvanize Everything
+A modified version of Craft Anything.
+Copyright (c) 2026 ArtCraft Team and the Craft Anything contributors (Craft Anything).
+Copyright (c) 2026 the Galvanize Everything contributors (modifications).
+Licensed under the MIT License or the Apache License, Version 2.0, at your option
+(LICENSE-MIT, LICENSE-APACHE).
+
+Galvanize Everything is not made, endorsed or supported by the ArtCraft Team, and carries none of
+their names, logos or icons beyond this notice. Its changes from Craft Anything: builds default to
+modern C++, its own name and icon, and no attribution headers or links back to the upstream
+project.
+
+Third-party material
+
+This product bundles third-party material under its own licenses, listed below. The per-file
+list (author, source, license) is in ATTRIBUTION.md.
+
+- Inter (assets/fonts/) — SIL Open Font License 1.1. See assets/fonts/OFL-Inter.txt.
+- JetBrains Mono (assets/fonts/) — SIL Open Font License 1.1. See assets/fonts/OFL-JetBrainsMono.txt.
+- Archivo (assets/fonts/) — SIL Open Font License 1.1. See assets/fonts/OFL-Archivo.txt.
+- Geist Mono (assets/fonts/) — SIL Open Font License 1.1. See assets/fonts/OFL-GeistMono.txt.
+- Lucide icons (assets/icons/) — ISC License. See assets/icons/LICENSE-lucide.txt.
+- egui default fonts (embedded by the epaint_default_fonts crate):
+  - Ubuntu Light — Ubuntu Font Licence 1.0.
+  - Noto Emoji — SIL Open Font License 1.1.
+  - Hack — MIT License; contains Bitstream Vera glyphs under the Bitstream Vera License.
+  - emoji-icon-font (Copyright (c) 2014 John Slegers) — MIT License.
+  The licence texts ship in that crate's fonts/ folder (UFL.txt, OFL.txt, Hack-Regular.txt,
+  emoji-icon-font-mit-license.txt) and in the third-party licence bundle (docs/licences.md).
+
+Rust crates are listed with their licences in the third-party licence bundle shipped with each
+release (see docs/licences.md).
+
+Builds made with craft-fonts (CRAFT_FONTS_DIR) also embed the fonts listed in ATTRIBUTION.md.
